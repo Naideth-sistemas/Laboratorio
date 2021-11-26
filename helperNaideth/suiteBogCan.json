@@ -1,0 +1,13 @@
+{
+    "DatosPrueba":{
+        "origen":"Bogota",
+        "destino":"Cancun",
+        "MesSalida":"12/2021",
+        "CantAdultos":"2",
+        "CantNinos":"1",
+        "EdadAdultos":["25","34"],
+        "EdadNinos":["12"],
+        "Moneda":"Dólar",
+        "CiudadVisitada":"Mexico"
+    }
+}

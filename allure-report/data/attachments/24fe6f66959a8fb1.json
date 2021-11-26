@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@id='modal_habitaciones_PACKETE']/div/div/div[2]/a[contains(text(),'Aplicar')]"
+}

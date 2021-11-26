@@ -1,0 +1,11 @@
+{
+    "ambientes":{
+        "testing":"https://test.cic.travel",
+        "produccion":"https://ciccolombia.travel"
+    },
+    "credenciales":{
+        "user":"diegogrillot@gmail.com",
+        "password":"diegogrillot@gmail.com"
+    }
+    
+}

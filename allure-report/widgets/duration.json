@@ -1,0 +1,11 @@
+[ {
+  "uid" : "f98764081f98a53c",
+  "name" : "Paquete BOG-CUN",
+  "time" : {
+    "start" : 1637958217504,
+    "stop" : 1637958274276,
+    "duration" : 56772
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
