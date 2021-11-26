@@ -6,11 +6,12 @@ describe('buscando paquetes naideth', () => {
     it('Paquete BOG-CUN', async () => {
         await LoginPage.open(HelperNaideth.ambientes.testing)
         await LoginPage.loginNaideth(HelperNaideth.credenciales.user, HelperNaideth.credenciales.password)
+        await expect(BusquedaNaideth.lblPaquete).toBeExisting();
+        await expect(BusquedaNaideth.lblPaquete).toHaveTextContaining(
+            'Paquetes / Circuitos');
 
         await BusquedaNaideth.BusquedaPaquete(SuiteBogCan.DatosPrueba.origen, SuiteBogCan.DatosPrueba.destino, SuiteBogCan.DatosPrueba.MesSalida, SuiteBogCan.DatosPrueba.CantAdultos, SuiteBogCan.DatosPrueba.EdadAdultos[0], SuiteBogCan.DatosPrueba.EdadAdultos[1], SuiteBogCan.DatosPrueba.CantNinos, SuiteBogCan.DatosPrueba.EdadNinos[0], SuiteBogCan.DatosPrueba.Moneda, SuiteBogCan.DatosPrueba.CiudadVisitada)
-        // await expect(SecurePage.flashAlert).toBeExisting();
-        // await expect(SecurePage.flashAlert).toHaveTextContaining(
-        //     'You logged into a secure area!');
+        
     });
 });
 

@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "./option[. = \"34\"]|./option[normalize-space(text()) = \"34\"]|./optgroup/option[. = \"34\"]|./optgroup/option[normalize-space(text()) = \"34\"]"
-}

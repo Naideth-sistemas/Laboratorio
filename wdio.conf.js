@@ -27,6 +27,14 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+
+    suites:{
+        "BogotaCancun":[
+            './test/specs/**/ejemplo1.js',
+            './test/specs/**/ejemplo2.js',
+            './test/specs/**/ejemplo3.js',
+        ]
+    },
     //
     // ============
     // Capabilities

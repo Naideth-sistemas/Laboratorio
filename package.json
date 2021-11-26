@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test-naideth": "wdio wdio.conf.js",
-    "report-naideth": "allure generate allure-results && allure open"
+    "report-naideth": "allure generate allure-results && allure open",
+    "suiteBogCan": "wdio wdio.conf.js --suite BogotaCancun"
   },
   "author": "giancarlo",
   "license": "ISC",

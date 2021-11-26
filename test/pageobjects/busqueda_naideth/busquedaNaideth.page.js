@@ -62,6 +62,10 @@ class BusquedaNaideth extends Page {
         return $('#btnSearch_PACKETE');
     }
 
+    get lblPaquete(){
+        return $("//*[contains(text(),'Paquetes / Circuitos')]");
+    }
+
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password

@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 250000ms exceeded. The execution in the test \"buscando paquetes naideth Paquete BOG-CUN\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Administrator\\Documents\\giancarlo\\Laboratorio\\test\\specs\\LoginNaideth.e2e.js)",
+      "children" : [ {
+        "name" : "Paquete BOG-CUN",
+        "uid" : "df93a8c4999714d",
+        "parentUid" : "bfcb80816e9247d5a25e1090dfa401a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637961705765,
+          "stop" : 1637961955788,
+          "duration" : 250023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-96.0.4664.45" ]
+      } ],
+      "uid" : "bfcb80816e9247d5a25e1090dfa401a1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
